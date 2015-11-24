@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		70B1CDB51C050CF700B19A93 /* CSCI6212Project_Minghao */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CSCI6212Project_Minghao; sourceTree = BUILT_PRODUCTS_DIR; };
 		70B1CDB81C050CF700B19A93 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		70B1CDC11C0515C800B19A93 /* test2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test2.txt; sourceTree = "<group>"; };
+		70B1CDC21C0515E600B19A93 /* test3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test3.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 		70B1CDAC1C050CF700B19A93 = {
 			isa = PBXGroup;
 			children = (
+				70B1CDC11C0515C800B19A93 /* test2.txt */,
 				70B1CDB71C050CF700B19A93 /* CSCI6212Project_Minghao */,
 				70B1CDB61C050CF700B19A93 /* Products */,
 			);
@@ -58,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				70B1CDB81C050CF700B19A93 /* main.cpp */,
+				70B1CDC21C0515E600B19A93 /* test3.txt */,
 			);
 			path = CSCI6212Project_Minghao;
 			sourceTree = "<group>";

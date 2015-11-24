@@ -7,9 +7,35 @@
 //
 
 #include <iostream>
+#include <fstream>
+#include <string>
+using namespace std;
+
+
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    std::string str;
+    std::cout<<"please enter the path"<<endl;
+    
+    std::cin>>str;
+    
+    
+    
+    std::ifstream ifs (str);
+    
+    if (ifs.is_open()) {
+        // print file:
+        char c = ifs.get();
+        while (ifs.good()) {
+            std::cout << c;
+            c = ifs.get();
+        }
+    }
+    else {
+        // show message:
+        std::cout << "Error opening file" <<endl;
+    }
     return 0;
+    
 }
