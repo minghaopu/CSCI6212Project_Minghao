@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		70B1CDB91C050CF700B19A93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70B1CDB81C050CF700B19A93 /* main.cpp */; };
+		70BB3EEA1C0621DE000A31AC /* AdjMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70BB3EE81C0621DE000A31AC /* AdjMatrix.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +27,8 @@
 		70B1CDB51C050CF700B19A93 /* CSCI6212Project_Minghao */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CSCI6212Project_Minghao; sourceTree = BUILT_PRODUCTS_DIR; };
 		70B1CDB81C050CF700B19A93 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		70B1CDC11C0515C800B19A93 /* test2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test2.txt; sourceTree = "<group>"; };
-		70B1CDC21C0515E600B19A93 /* test3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test3.txt; sourceTree = "<group>"; };
+		70BB3EE81C0621DE000A31AC /* AdjMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AdjMatrix.cpp; sourceTree = "<group>"; };
+		70BB3EE91C0621DE000A31AC /* AdjMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdjMatrix.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				70B1CDB81C050CF700B19A93 /* main.cpp */,
-				70B1CDC21C0515E600B19A93 /* test3.txt */,
+				70BB3EE81C0621DE000A31AC /* AdjMatrix.cpp */,
+				70BB3EE91C0621DE000A31AC /* AdjMatrix.h */,
 			);
 			path = CSCI6212Project_Minghao;
 			sourceTree = "<group>";
@@ -122,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70BB3EEA1C0621DE000A31AC /* AdjMatrix.cpp in Sources */,
 				70B1CDB91C050CF700B19A93 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +245,7 @@
 				70B1CDBE1C050CF700B19A93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
